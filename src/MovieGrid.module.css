@@ -1,0 +1,21 @@
+.moviesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px ;
+    justify-content: center;
+}
+
+
+.titleFav {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+
+
+
+@media (max-width: 560px) {
+    .moviesGrid{
+        grid-template-columns: 100%;}
+}
